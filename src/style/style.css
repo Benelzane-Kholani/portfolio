@@ -1,0 +1,28 @@
+body{
+    background-color: #030508;
+}
+
+.logo{
+    font-family: 'Big Shoulders Text', cursive;
+    color: silver;
+    font-size: 24pt;
+}
+
+.navbar .nav-link{
+    color: silver;
+}
+
+.myheading{
+    color:#BF0A30;
+}
+
+.intro{
+    color: silver;
+}
+
+.home{
+    background-image: url('../img/pexels-griffinw-5326206.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
