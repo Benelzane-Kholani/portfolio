@@ -1,28 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body{
-    background-color: #030508;
+    background-color: #f1eee4;
+    overflow:hidden;
 }
 
 .logo{
     font-family: 'Big Shoulders Text', cursive;
-    color: silver;
+    color: #f1eee4;
     font-size: 24pt;
 }
 
 .navbar .nav-link{
-    color: silver;
-}
-
-.myheading{
-    color:#BF0A30;
-}
-
-.intro{
-    color: silver;
+    color: #f1eee4;
 }
 
 .home{
-    background-image: url('../img/pexels-griffinw-5326206.jpg');
-    background-repeat: no-repeat;
     height: 100vh;
+    background-image: url("../img/pexels-griffinw-5326206.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+.myheading{
+    color: #f1eee4;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+}
+
+.intro{
+    color: #f1eee4;
+}
+
+.home{
+    height: 100vh;
+}
+
+.action {
+    border: 2px solid #BF0A30;
+    background-color: #BF0A30;
+    color: #f1eee4;
+    padding: 5px;
+    margin: 2px;
+}
+
+.action:hover{
+    background-color: #c91d42;
 }
